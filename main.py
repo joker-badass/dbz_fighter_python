@@ -18,7 +18,7 @@ altura = 776
 sair = False
 fonte = pg.font.SysFont('ariel',50,True,True)
 fonte2 = pg.font.SysFont('ariel',90,True,True)
-musica = pg.mixer.music.load(os.path.join(file_song, 'game_music.wav'))
+musica = pg.mixer.music.load(os.path.join(file_song, 'rock.ogg'))
 pg.mixer.music.set_volume(0.5)
 pg.mixer.music.play(-1)
 #lista_head = []
